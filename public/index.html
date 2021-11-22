@@ -10,6 +10,7 @@
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link href="../src/assets/swiper/swiper-bundle.min.css" rel="stylesheet">
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -39,5 +40,42 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <!-- mix it up -->
+    <script src="../src/assets/js/mixitup.min.js"></script>
+    <script src="../src/assets/js/script.js"></script>
+    <script src="../src/assets/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      const typed = new Typed(".kayo-work", {
+        strings: [" ", "FULL STACK DEVELOPER", "Web Designer", "Freelancer"],
+        typeSpeed: 100,
+        backSpeed: 70,
+        loop: true
+      });
+    </script>
+
+    <script>
+      //initialize mixitup
+      const mixer = mixitup('.box-mix');
+    </script>
+    <script>
+      /**
+       * Testimonials slider
+       */
+      new Swiper('.testimonials-slider', {
+        speed: 600,
+        loop: true,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false
+        },
+        slidesPerView: 'auto',
+        pagination: {
+          el: '.swiper-pagination',
+          type: 'bullets',
+          clickable: true
+        }
+      });
+    </script>
   </body>
 </html>
