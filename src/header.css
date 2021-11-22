@@ -261,7 +261,11 @@ body>main>div>div>div>div>h4>span.kayo-work {
     font-family: 'Montserrat',
     sans-serif;
 }
-
+.active_link:active,
+.active_link a.active{
+    background: #E31B6D !important;
+    color: yellow !important;
+}
 .card:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     transform: translateY(-5px);
