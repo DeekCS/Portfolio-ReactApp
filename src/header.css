@@ -233,7 +233,7 @@ body>main>div>div>div>div>h4>span.kayo-work {
 .services-img {
     /* width: 100%; */
     /*  */
-    /*background-image: url('../images/bg1.jpg');*/
+    background-image: url('https://deek.codes/assets/images/bg1.jpg');
     background-color: rgba(0, 0, 0, 0.5);
     opacity: 1;
     overflow: hidden;

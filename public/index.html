@@ -53,7 +53,18 @@
         loop: true
       });
     </script>
-
+    <script >
+      $(document).on("scroll", function(){
+      if
+      ($(document).scrollTop() > 86){
+        $("#banner").addClass("shrink");
+      }
+      else
+      {
+        $("#banner").removeClass("shrink");
+      }
+    });
+    </script>
     <script>
       //initialize mixitup
       const mixer = mixitup('.box-mix');

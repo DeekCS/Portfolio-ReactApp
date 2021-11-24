@@ -4,7 +4,7 @@ import './header.css'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-
+import ContactForm from "./components/ContactForm/ContactForm";
 import React, {Component} from "react";
 // import Reviewss from "./components/Reviews/Revirews";
 import Works from "./components/Works/Works";
@@ -23,6 +23,7 @@ function App() {
               <Route path='/works' element={<Works />} />
               <Route path='/reviews' element={<Reviews />} />
               <Route path='/contact' element={<Contact />} />
+              <Route path='/contact-form' element={<ContactForm />} />
           </Routes>
           <Footer />
       </React.Fragment>

@@ -15,6 +15,7 @@ const Footer = () => {
                         <li><a href="https://www.instagram.com/d.eek9"><i className="fab fa-instagram"/></a></li>
                         <li><a href="https://www.linkedin.com/in/abdulkareem-aldeek//"><i
                             className="fab fa-linkedin-in"/></a></li>
+                        {/* eslint-disable-next-line jsx-a11y/anchor-has-content */}
                         <li><a href="https://github.com/DeekCS" /></li>
                 </ul>
             </div>
