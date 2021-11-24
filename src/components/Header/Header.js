@@ -28,6 +28,10 @@ const links = [
         name: 'Contact',
         link: '/contact',
     },
+    {
+        name:'Contact Form',
+        link:'/contact-form'
+    }
 ];
 const Header = () => {
     return (
