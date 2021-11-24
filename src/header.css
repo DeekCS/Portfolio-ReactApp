@@ -2,11 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Gothic+A1|Kaushan+Script|Libre+Baskerville|Lobster');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('http://fonts.cdnfonts.com/css/agustina');
 
-/*@font-face {*/
-/*    font-family: 'Agustina 400';*/
-/*    src: url('../fonts/Agutina\ 400.otf');*/
-/*}*/
+@font-face {
+    font-family: 'Agustina 400';
+    src: url('https://github.com/DeekCS/projectOne-Portfolio/blob/main/assets/fonts/Agustina%20Demo.ttf');
+}
 
 html {
     scroll-behavior: smooth;
@@ -15,7 +16,7 @@ html {
 .navbar-brand {
     color: #551A8B;
     font-weight: 700;
-    font-family: 'Agustina 400';
+    font-family: 'Agustina', sans-serif;
 }
 
 .shrink {
@@ -27,13 +28,13 @@ html {
     font-size: 25px;
     font-weight: 700;
     letter-spacing: 0.1em;
-    font-family: 'Agustina 400', sans-serif;
+    font-family: 'Agustina', sans-serif;
 }
 
 .navbar-brand {
     color: #fff;
     font-size: 25px;
-    font-family: 'Agustina 400', sans-serif;
+    font-family: 'Agustina', sans-serif;
     font-weight: 700;
     letter-spacing: 0.1em;
 }
@@ -71,7 +72,7 @@ html {
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
-    height: 100vh;
+    /*height: 100vh;*/
 }
 
 .overlay {
@@ -756,7 +757,7 @@ body>footer>div>div>ul {
 .apps-short-info h3 {
     color: #E31B6D;
     font-size: 25px;
-    font-family: 'Agustina 400';
+    font-family: 'Agustina', sans-serif;
     font-weight: 700;
     letter-spacing: 0.1em;
 
