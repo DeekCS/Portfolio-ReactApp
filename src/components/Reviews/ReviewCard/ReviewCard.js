@@ -1,29 +1,26 @@
 import React from 'react';
-import '../reviews.css'
+import '../reviews.css';
 const CardReviews = (props) => {
-    return (
-
-        <div className="col-lg-4 col-md-6 col-sm-12">
-        <div className="">
-            <div className="inner-width">
-                <div className="slides owl-carousel">
-        <div className="testimonial">
-            <div className="test-info">
+  return (
+    <div className="col-lg-4 col-md-6 col-sm-12">
+      <div className="">
+        <div className="inner-width">
+          <div className="slides owl-carousel">
+            <div className="testimonial">
+              <div className="test-info">
                 <img className="test-pic" src={props.image} alt="" />
                 <div className="test-name">
-                    <span>{props.name}</span>
-                    <p>{props.position}</p>
+                  <span>{props.name}</span>
+                  <p>{props.position}</p>
                 </div>
+              </div>
+              <p>{props.desc}</p>
             </div>
-            <p>
-                {props.desc}
-            </p>
+          </div>
         </div>
-</div>
-</div>
-</div>
-        </div>
-    );
+      </div>
+    </div>
+  );
 };
 
 export default CardReviews;
