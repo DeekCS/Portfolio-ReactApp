@@ -14,6 +14,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/Home/Home';
 import Contact from './components/Contact/Contact';
 import ToggleTheme from "./components/toggleTheme/ToggleTheme";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
       <React.Fragment>
         <Header />
         <ToggleTheme />
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/works" element={<Works />} />

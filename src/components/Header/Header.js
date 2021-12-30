@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import '../dark-mode.css'
 import { NavLink } from 'react-router-dom';
 import '../../header.css';
 const links = [
