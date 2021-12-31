@@ -24,28 +24,28 @@ const cardData = [
   {
     id: 5,
     name: 'My Portfolio',
-    src: './images/portfolio1.png',
+    src: './Portfolio-ReactApp/images/portfolio1.png',
     link: 'https://deek.codes/',
     filter: 'react',
   },
   {
     id: 1,
     name: 'Clever Team',
-    src: './images/clever-team.png',
+    src: './Portfolio-ReactApp/images/clever-team.png',
     link: 'https://clever-team.com/',
     filter: 'all',
   },
   {
     id: 2,
     name: 'My Blog',
-    src: './images/blog.png',
+    src: './Portfolio-ReactApp/images/blog.png',
     link: 'https://deekcs.github.io/Blog-ReactApp/',
     filter: 'react',
   },
   {
     id: 3,
     name: 'Cello Ecommerce',
-    src: './images/cello.png',
+    src: './Portfolio-ReactApp/images/cello.png',
     link: 'https://cello-e-commerce.netlify.app/',
     filter: 'react',
 
@@ -53,7 +53,7 @@ const cardData = [
   {
     id: 4,
     name:'iFix - Repair & Service',
-    src: './images/ifix.png',
+    src: './Portfolio-ReactApp/images/ifix.png',
     link: 'https://i-fix.netlify.app/',
     filter: 'react',
   },
@@ -65,8 +65,6 @@ const Works = () => {
   const [filter, setFilter] = useState('all');
   const [cards, setCards] = useState(cardData);
 
-
-  //add a transition effect to the cards
   useEffect(() => {
     const filterData = cardData.filter((item) => {
       if (filter === 'all') {

@@ -14,11 +14,7 @@ O
 src/components/Banner/Banner.js,3\c\3cffbcc7308bcbd1de323b7531ea0804642b09bc
 A
 public/index.html,f\4\f43ecdf8d666ee908aacce037b4cd72159e4741b
-S
-#src/components/Works/Cards/Cards.js,d\a\dac532d8072e60d16b70138182405a1bcfcdb8cf
 =
 src/index.css,c\5\c5d38a62d1faae90a2acaa34b79a7ef365c917e4
 O
 src/components/Footer/Footer.js,7\4\74666642fa5562fe777207b5a96d7dadad77ce22
-M
-src/components/Works/Works.js,2\0\209ea8cc367f818a16aff50a841aade4ca0716f5
