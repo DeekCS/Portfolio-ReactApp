@@ -1,4 +1,4 @@
-import React,{useEffect,useState} from 'react';
+import React, { useEffect, useState } from 'react';
 import Cards from './Cards/Cards';
 
 const dataFilter = [
@@ -24,44 +24,41 @@ const cardData = [
   {
     id: 5,
     name: 'My Portfolio',
-    src: './Portfolio-ReactApp/images/portfolio1.png',
+    src: './assets/img/portfolio/portfolio-1.jpg',
     link: 'https://deek.codes/',
     filter: 'react',
   },
   {
     id: 1,
     name: 'Clever Team',
-    src: './Portfolio-ReactApp/images/clever-team.png',
+    src: './images/clever-team.png',
     link: 'https://clever-team.com/',
     filter: 'all',
   },
   {
     id: 2,
     name: 'My Blog',
-    src: './Portfolio-ReactApp/images/blog.png',
+    src: 'https://github.com/DeekCS/Portfolio-ReactApp/blob/master/public/images/blog.png',
     link: 'https://deekcs.github.io/Blog-ReactApp/',
     filter: 'react',
   },
   {
     id: 3,
     name: 'Cello Ecommerce',
-    src: './Portfolio-ReactApp/images/cello.png',
+    src: './images/cello.png',
     link: 'https://cello-e-commerce.netlify.app/',
     filter: 'react',
-
   },
   {
     id: 4,
-    name:'iFix - Repair & Service',
-    src: './Portfolio-ReactApp/images/ifix.png',
+    name: 'iFix - Repair & Service',
+    src: './images/ifix.png',
     link: 'https://i-fix.netlify.app/',
     filter: 'react',
   },
-
 ];
 
 const Works = () => {
-
   const [filter, setFilter] = useState('all');
   const [cards, setCards] = useState(cardData);
 
@@ -76,78 +73,25 @@ const Works = () => {
     setCards(filterData);
   }, [filter]);
 
-
   return (
-      <>
-    <section className="works">
-      <div className="works-img">
-        <div className="overlay">
-        <div className="works-content">
-          <h3 className={'mb-3'} >My Works</h3>
-        <div className="works-item text-center">
-          <ul
-              className={`portfolio-sorting list-unstyled text-center kayo-taps`}>
-          {dataFilter.map((item) => {
-            return (
-                <li  onClick={() => setFilter(item.filter)}
-                     className={`mixitup-control ${filter === item.filter ? 'active' : ''}`}>{item.name}</li>
-            );
-          })}
-          </ul>
-        </div>
-        </div>
-        <div className="container box-mix">
-          <div className="row">
-            {
-              cards.length > 0 ? cards.map((item) => {
-                    return (
-                        <Cards
-                            key={item.id}
-                            name={item.name}
-                            src={item.src}
-                            link={item.link}
-                            filter={item.filter}
-                        />
-                    );
-                  }):
-                    <div className="text-center">
-                      <h3>Coming Soon ...</h3>
-                    </div>
-              })
-            }
-          </div>
-        </div>
-      </div>
-      </div>
-    </section>
-    </>
-  );
-};
-
-export default Works;
-
-/*
-return (
     <>
-      <section id="works">
+      <section className="works">
         <div className="works-img">
           <div className="overlay">
             <div className="works-content">
-              <h3 className="mb-3">Works</h3>
-              <div className="text-center works-item">
-                <ul className="portfolio-sorting list-unstyled text-center kayo-taps">
-                  <li
-                    className="active mixitup-control-active"
-                    data-filter=".all"
-                  >
-                    All
-                  </li>
+              <h3 className={'mb-3'}>My Works</h3>
+              <div className="works-item text-center">
+                <ul
+                  className={`portfolio-sorting list-unstyled text-center kayo-taps`}
+                >
                   {dataFilter.map((item, index) => {
                     return (
                       <li
                         key={index}
-                        className="mixitup-control"
-                        data-filter={item.filter}
+                        onClick={() => setFilter(item.filter)}
+                        className={`mixitup-control ${
+                          filter === item.filter ? 'active' : ''
+                        }`}
                       >
                         {item.name}
                       </li>
@@ -156,18 +100,26 @@ return (
                 </ul>
               </div>
             </div>
-            <div className="container box-mix" id="container">
+            <div className="container box-mix">
               <div className="row">
-                {cardData.map((item, index) => {
-                  return (
-                    <Cards
-                      key={index}
-                      name={item.name}
-                      src={item.src}
-                      link={item.link}
-                    />
-                  );
-                })}
+                {cards.length > 0 ? (
+                  cards.map((item) => {
+                    return (
+                      <Cards
+                        key={item.id}
+                        name={item.name}
+                        src={item.src}
+                        link={item.link}
+                        filter={item.filter}
+                      />
+                    );
+                  })
+                ) : (
+                  <div className="text-center">
+                    <h3>Coming Soon ...</h3>
+                  </div>
+                )}
+                ) }
               </div>
             </div>
           </div>
@@ -175,4 +127,6 @@ return (
       </section>
     </>
   );
- */
+};
+
+export default Works;

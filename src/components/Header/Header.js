@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import '../../header.css';
 const links = [
   {
@@ -14,7 +14,6 @@ const links = [
     name: 'Contact',
     link: '/contact',
   },
-
 ];
 
 const Header = () => {
@@ -30,11 +29,6 @@ const Header = () => {
     });
   });
 
-
-
-
-
-
   return (
     <React.Fragment>
       <header>
@@ -44,9 +38,9 @@ const Header = () => {
         >
           <div className="container">
             <span className="grey-color"> &lt; </span>
-            <a className="navbar-brand" href="#">
+            <Link className="navbar-brand" to="/">
               <span>Aldeek</span>
-            </a>
+            </Link>
             <span className="grey-color">/&gt;</span>
             <button
               className="navbar-toggler"
@@ -60,11 +54,7 @@ const Header = () => {
               <ul className="navbar-nav ml-auto">
                 {links.map((link) => (
                   <li className="nav-item" key={link.name}>
-                    <NavLink
-
-                      to={link.link}
-                      className="nav-link"
-                    >
+                    <NavLink to={link.link} className="nav-link">
                       {link.name}
                     </NavLink>
                   </li>
