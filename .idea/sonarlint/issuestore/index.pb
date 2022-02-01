@@ -20,8 +20,6 @@ Y
 )src/components/ScrollToTop/ScrollToTop.js,7\1\71f3351b75dd5c3a9350257ee5a6c71520dea0ab
 Z
 *src/components/ScrollToTop/ScrollToTop.css,0\6\060cf4238e4e4b662bdac2f1f58697ec68f48757
-A
-public/index.html,f\4\f43ecdf8d666ee908aacce037b4cd72159e4741b
 U
 %src/components/toggleTheme/toggle.css,6\5\65ab5be3187ec2bde8976ddc3c1a712ca9aeb9af
 >
