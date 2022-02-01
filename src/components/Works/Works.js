@@ -24,7 +24,7 @@ const cardData = [
   {
     id: 5,
     name: 'My Portfolio',
-    src: './images/portfolio.png',
+    src: './images/portoflio.png',
     link: 'https://deek.codes/',
     filter: 'react',
   },
