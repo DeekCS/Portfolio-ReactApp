@@ -12,8 +12,6 @@ P
 src/index.css,c\5\c5d38a62d1faae90a2acaa34b79a7ef365c917e4
 O
 src/components/Footer/Footer.js,7\4\74666642fa5562fe777207b5a96d7dadad77ce22
-Q
-!src/components/Contact/Contact.js,9\e\9ef58f5195c51e2b3061b1d6d8f62e126960fe32
 S
 #src/components/Services/Services.js,0\9\092ca449b3194069c9ffcd2edb764a33f2139575
 Y

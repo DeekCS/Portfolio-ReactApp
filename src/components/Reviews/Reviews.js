@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import ReviewCard from './ReviewCard/ReviewCard';
 import './reviews.css';
 // import CardReviews from "./ReviewCard/ReviewCard";
@@ -27,6 +27,9 @@ const reviewsData = [
   },
 ];
 const Reviews = () => {
+  useEffect(() => {
+    document.title = 'Reviews';
+  }, []);
   return (
     <section className="testimonial-section">
       <div className="container ">

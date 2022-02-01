@@ -73,6 +73,10 @@ const Works = () => {
     setCards(filterData);
   }, [filter]);
 
+  useEffect(() => {
+    document.title = 'Projects';
+  }, []);
+
   return (
     <>
       <section className="works">
