@@ -64,7 +64,7 @@ html {
 }
 
 .banner {
-  background-image: url('./images/works.jpg');
+  background-image: url('https://images.unsplash.com/photo-1533908279087-2448f4554f18?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
   background-color: rgba(0, 0, 0, 0.4);
   overflow: hidden;
   background-repeat: no-repeat;
