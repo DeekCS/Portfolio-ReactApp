@@ -8,7 +8,7 @@ const About = () => {
           <div className="container-flex">
             <div className="about-img   ">
               <img
-                src="https://deek.codes/assets/images/about-img.jpg"
+                src="./images/about-img.jpg"
                 width="330"
                 height="440"
                 alt=""

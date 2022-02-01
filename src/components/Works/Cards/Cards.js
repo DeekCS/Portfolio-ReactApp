@@ -19,21 +19,3 @@ const Cards = ({ src, name, link, filter }) => {
 };
 
 export default Cards;
-/*
-  <div className="col-lg-4 col-md-6 col-12   mix all web" data-aos="fade-up">
-      <div className="card-imG webDev">
-        <img src={src} alt="" />
-        <div className="overlay-hover">
-          <div className="text-hover">
-            <span>{name}</span> <br />
-            <a href={link} target="_blank">
-              <i className="fas fa-link"/> Live Preview
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    className={`col-lg-4 col-md-6 col-12 ${filter}`}
- */
