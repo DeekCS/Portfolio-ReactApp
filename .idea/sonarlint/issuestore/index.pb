@@ -24,8 +24,6 @@ Y
 )src/components/ScrollToTop/ScrollToTop.js,7\1\71f3351b75dd5c3a9350257ee5a6c71520dea0ab
 Z
 *src/components/ScrollToTop/ScrollToTop.css,0\6\060cf4238e4e4b662bdac2f1f58697ec68f48757
-<
-package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
 A
 public/index.html,f\4\f43ecdf8d666ee908aacce037b4cd72159e4741b
 U
@@ -34,5 +32,3 @@ U
 src/header.css,4\a\4ad48637e9bcebbc2eef5e520b1a64fe98728fcf
 V
 &src/components/ContactForm/contact.css,d\d\ddc61f060a4a0a83d1467e31517dc48fe1c84d74
-M
-src/components/Works/Works.js,2\0\209ea8cc367f818a16aff50a841aade4ca0716f5
