@@ -24,7 +24,7 @@ const cardData = [
   {
     id: 5,
     name: 'My Portfolio',
-    src: './assets/img/portfolio/portfolio-1.jpg',
+    src: './images/portfolio.png',
     link: 'https://deek.codes/',
     filter: 'react',
   },
@@ -38,7 +38,7 @@ const cardData = [
   {
     id: 2,
     name: 'My Blog',
-    src: 'https://github.com/DeekCS/Portfolio-ReactApp/blob/master/public/images/blog.png',
+    src: './images/blog.png',
     link: 'https://deekcs.github.io/Blog-ReactApp/',
     filter: 'react',
   },
