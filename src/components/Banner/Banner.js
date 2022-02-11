@@ -1,6 +1,6 @@
-import React, {useEffect, useRef} from 'react';
-import Typed from "typed.js";
-import {Link} from "react-router-dom";
+import React, { useEffect, useRef } from 'react';
+import Typed from 'typed.js';
+import { Link } from 'react-router-dom';
 // import bannerImg from '../../../images/1f44b.png';
 
 const Banner = () => {
@@ -19,7 +19,6 @@ const Banner = () => {
     };
   }, []);
 
-
   return (
     <div className="banner" id="home">
       <div className="overlay" id="overlay-light">
@@ -29,9 +28,9 @@ const Banner = () => {
               HI, I AM <img className="wave" src="" alt="" srcSet="" />
             </div>
             <div className="banner-sub-heading">Abdulkareem Al-deek</div>
-            <h4 className="kayo-work-description" >
+            <h4 className="kayo-work-description">
               &nbsp;
-              <span className="kayo-work" ref={typedRef}/>
+              <span className="kayo-work" ref={typedRef} />
               <span className="typed-cursor " />
             </h4>
             <div className="button2 mt-3">
@@ -40,7 +39,7 @@ const Banner = () => {
               </Link>
               <a
                 className=" btn-banner btn2"
-                href="https://drive.google.com/uc?export=download&amp;id=1X0SLxdlUedSkrxQ1SdCl3D5ot0Z-kcxa"
+                href="/Abdulkareem Aldeek - Resume.pdf"
               >
                 <i className="fa fa-download"> </i> My Resume{' '}
               </a>

@@ -29,5 +29,3 @@ M
 src/App.css,a\a\aa7165aefcf8ee3d73539e99ab007daf1aa18d8d
 P
  src/components/Banner/banner.css,5\4\54ea55afff6dd7d3b9a57ed218ca746cc172fec1
-O
-src/components/Banner/Banner.js,3\c\3cffbcc7308bcbd1de323b7531ea0804642b09bc
