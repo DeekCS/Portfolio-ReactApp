@@ -17,8 +17,6 @@ Z
 K
 src/components/Home/Home.js,4\4\4456e8506efee3f50c70cf5607346b1e4963e449
 Q
-!src/components/Contact/Contact.js,9\e\9ef58f5195c51e2b3061b1d6d8f62e126960fe32
-Q
 !src/components/Reviews/Reviews.js,6\d\6d4b081a2206022e3ee45e0d34dbe93d26f6d5bf
 :
 

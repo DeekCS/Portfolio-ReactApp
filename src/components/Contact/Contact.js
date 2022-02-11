@@ -5,7 +5,7 @@ const Card = [
   {
     id: 1,
     title: 'ADDRESS',
-    desc: 'Irbid, Jordan',
+    desc: 'Amman, Jordan',
     icon: 'fa fa-map-marker-alt',
   },
   {
@@ -17,7 +17,7 @@ const Card = [
   {
     id: 3,
     title: 'PHONE',
-    desc: '+962-778-123-123',
+    desc: '+962-777-685-126',
     icon: 'fa fa-phone',
   },
 ];
