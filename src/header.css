@@ -4,10 +4,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 @import url('http://fonts.cdnfonts.com/css/agustina');
 
-@font-face {
-  font-family: 'Agustina 400';
-  src: url('https://github.com/DeekCS/projectOne-Portfolio/blob/main/assets/fonts/Agustina%20Demo.ttf');
-}
 
 html {
   scroll-behavior: smooth;
@@ -230,7 +226,7 @@ body > main > div > div > div > div > div.banner-heading > img {
 .services-img {
   /* width: 100%; */
   /*  */
-  background-image: url('https://deek.codes/assets/images/bg1.jpg');
+  background-image: url('https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
   background-color: rgba(0, 0, 0, 0.5);
   opacity: 1;
   overflow: hidden;
@@ -357,7 +353,7 @@ body > main > div > div > div > div > div.banner-heading > img {
 
 
 .works-img {
-  background-image: url('https://deek.codes/assets/images/bg3.jpg');
+  background-image: url('https://www.berenschot.nl/media/hjfafduk/ict-programmeur.jpg?anchor=center&mode=crop&width=610&height=405&format=webp&quality=80&rnd=132543209701600000');
   background-color: rgba(0, 0, 0, 0.5);
   opacity: 1;
   overflow: hidden;

@@ -14,9 +14,22 @@ Y
 )src/components/ScrollToTop/ScrollToTop.js,7\1\71f3351b75dd5c3a9350257ee5a6c71520dea0ab
 Z
 *src/components/ScrollToTop/ScrollToTop.css,0\6\060cf4238e4e4b662bdac2f1f58697ec68f48757
-U
-%src/components/toggleTheme/toggle.css,6\5\65ab5be3187ec2bde8976ddc3c1a712ca9aeb9af
-V
-&src/components/ContactForm/contact.css,d\d\ddc61f060a4a0a83d1467e31517dc48fe1c84d74
-<
-package.json,7\0\7030d0b2f71b999ff89a343de08c414af32fc93a
+K
+src/components/Home/Home.js,4\4\4456e8506efee3f50c70cf5607346b1e4963e449
+Q
+!src/components/Contact/Contact.js,9\e\9ef58f5195c51e2b3061b1d6d8f62e126960fe32
+Q
+!src/components/Reviews/Reviews.js,6\d\6d4b081a2206022e3ee45e0d34dbe93d26f6d5bf
+:
+
+src/App.js,1\e\1e43fa63aecd2127be034b3fb9d4caa172275714
+M
+src/components/About/About.js,a\d\ad833a442ea5432abd4cb3f80675b86dfa3bbb78
+=
+src/index.css,c\5\c5d38a62d1faae90a2acaa34b79a7ef365c917e4
+;
+src/App.css,a\a\aa7165aefcf8ee3d73539e99ab007daf1aa18d8d
+P
+ src/components/Banner/banner.css,5\4\54ea55afff6dd7d3b9a57ed218ca746cc172fec1
+O
+src/components/Banner/Banner.js,3\c\3cffbcc7308bcbd1de323b7531ea0804642b09bc
